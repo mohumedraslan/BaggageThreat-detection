@@ -20,15 +20,14 @@ MLOps: GitHub Actions (CI/CD), FastAPI, Streamlit
 Programming: Python
 Data: Pandas, NumPy
 Version Control: Git, GitHub
-Project Structure
-text
-
-Copy
+## Project Structure
+ ```bash
 BaggageThreat-detection/
 ├── app.py              # Streamlit app for threat detection
 ├── best.pt             # Pre-trained model weights
 ├── requirements.txt    # Dependencies
 └── README.md           # Documentation
+```
 Installation and Setup
 Prerequisites
 Python 3.8+
