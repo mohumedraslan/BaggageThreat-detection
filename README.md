@@ -1,9 +1,9 @@
-Baggage Threat Detection Using X-Ray
+# Baggage Threat Detection Using X-Ray
 
 
-ML-powered threat detection in X-ray images for baggage screening, with automated MLOps pipelines.
+## ML-powered threat detection in X-ray images for baggage screening, with automated MLOps pipelines.
 
-Overview
+## Overview
 This project builds an MLOps pipeline for baggage threat detection using the SixRay dataset. It automates training, validation, and deployment of a TensorFlow model, achieving 95% test accuracy and 200ms inference latency. The pipeline uses CI/CD, FastAPI for model serving, and Streamlit for interactive deployment, ensuring scalability for real-time security applications.
 
 🔗 Live Demo: [Baggage Threat Detection App](https://baggage-threat-detection-using-x-ray-9qljxz4khyyyk5fgfwx2dt.streamlit.app/)
@@ -33,29 +33,26 @@ Installation and Setup
 Prerequisites
 Python 3.8+
 Git
-Steps
-Clone the Repository:
+# Steps
+## Clone the Repository:
 
-bash 
-Copy
-git clone https://github.com/mohumedraslan/BaggageThreat-detection.git
-text
+   ```bash
+  git clone https://github.com/mohumedraslan/BaggageThreat-detection.git
+  cd BaggageThreat-detection
+```
+## Install Dependencies:
+   ```bash
 
-Copy
-cd BaggageThreat-detection
-Install Dependencies:
-text
-
-Copy
 pip install -r requirements.txt
+```
 Run the Streamlit App Locally:
-text
 
-Copy
+   ```bash
+
 streamlit run app.py
 Open http://localhost:8501 in your browser to use the app.
-
-Usage
+```
+## Usage
 Launch the app via the live demo or locally.
 Upload an X-ray image (PNG/JPEG).
 View the threat detection results with confidence scores.
@@ -72,8 +69,6 @@ Efficiency: CI/CD cuts deployment time by 2 hours.
 Contributing
 Fork the repo, create a branch, and submit a pull request. Open an issue for major changes.
 
-License
-MIT License. See the  file.
 
 Contact
 Author: Mohamed Raslan
