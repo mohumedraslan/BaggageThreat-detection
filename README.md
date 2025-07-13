@@ -6,7 +6,7 @@
 ## Overview
 This project builds an MLOps pipeline for baggage threat detection using the SixRay dataset. It automates training, validation, and deployment of a TensorFlow model, achieving 95% test accuracy and 200ms inference latency. The pipeline uses CI/CD, FastAPI for model serving, and Streamlit for interactive deployment, ensuring scalability for real-time security applications.
 
-🔗 Live Demo: [Baggage Threat Detection App](https://baggage-threat-detection-using-x-ray-9qljxz4khyyyk5fgfwx2dt.streamlit.app/)
+🔗 Live Demo: [Baggage Threat Detection App](https://moraslan-baggage-threat-detection.streamlit.app/)
 
 Features
 Threat Detection: TensorFlow model to classify threats in X-ray images.
