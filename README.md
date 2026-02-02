@@ -8,7 +8,6 @@
 ## Overview
 This project builds an MLOps pipeline for baggage threat detection using the SixRay dataset. It automates training, validation, and deployment of a YOLOv8 model, achieving high accuracy and low inference latency. The pipeline uses CI/CD, FastAPI for model serving, and Streamlit for interactive deployment, ensuring scalability for real-time security applications.
 
-🔗 Live Demo: [Baggage Threat Detection App](https://moraslan-baggage-threat-detection.streamlit.app/)
 
 ## Features
 - **Threat Detection**: YOLOv8 model to detect and classify threats in X-ray images.
